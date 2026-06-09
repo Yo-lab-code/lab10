@@ -42,8 +42,18 @@ Highlights
 - Clean separation between data schema and business rules.
 - Ready for automatic API documentation with ``pdoc``.
 
+Tenants method argument description:
+----
+
+Args: \n
+    year (int): The year for which to calculate the balance.
+
+Returns: \n
+    float: The annual balance.
+
 Authors
 ------
-Łukasz Kułacz - initial implementation, testing, documentation
+Łukasz Kułacz - initial implementation, testing, documentation \n
+Marcin Trzmiel - minor changes, fixes, documentation
 
 """
